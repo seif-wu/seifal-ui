@@ -1,7 +1,7 @@
 import React, { ButtonHTMLAttributes } from 'react';
 import { Theme } from '@emotion/react';
-import ThemeProvider from '@/system/ThemeProvider';
-import Button from './components/Button';
+import ThemeProvider from '../src/system/ThemeProvider';
+import Button from '../src/components/Button';
 
 const theme: Theme = {};
 
