@@ -1,0 +1,36 @@
+{
+  "name": "@seifal/system",
+  "version": "0.0.1-alpha.0",
+  "description": "Seifal UI system tools",
+  "main": "./dist/system.min.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc build/webpack.config.prod.ts --esModuleInterop && webpack --config build/webpack.config.prod.js"
+  },
+  "author": "Seif Wu <seif.wuxf@gmail.com>",
+  "homepage": "https://github.com/seif-wu/seifal-ui#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seif-wu/seifal-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seif-wu/seifal-ui/issues"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@emotion/react": "^11.9.3",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@emotion/react": "^11.9.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/react": "^18.0.14"
+  }
+}
