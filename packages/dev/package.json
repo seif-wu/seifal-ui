@@ -1,9 +1,9 @@
 {
   "name": "@seifal/dev",
-  "version": "0.1.0",
+  "version": "0.0.1-alpha.0",
   "private": true,
   "dependencies": {
-    "@seifal/ui": "^0.0.0",
+    "@seifal/ui": "^0.0.1-alpha.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
