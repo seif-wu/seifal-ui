@@ -1,10 +1,10 @@
 {
   "name": "@seifal/dev",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "private": true,
   "dependencies": {
-    "@seifal/system": "^0.0.1-alpha.0",
-    "@seifal/ui": "^0.0.1-alpha.0",
+    "@seifal/system": "^0.0.1-alpha.1",
+    "@seifal/ui": "^0.0.1-alpha.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
