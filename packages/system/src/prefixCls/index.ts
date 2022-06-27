@@ -1,3 +1,3 @@
 import getPrefixCls from './getPrefixCls';
 
-export { getPrefixCls };
+export default getPrefixCls;
