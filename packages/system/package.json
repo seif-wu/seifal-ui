@@ -2,10 +2,13 @@
   "name": "@seifal/system",
   "version": "0.0.1-alpha.1",
   "description": "Seifal UI system tools",
-  "main": "./dist/system.min.js",
-  "types": "./dist/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsc build/webpack.config.prod.ts --esModuleInterop && webpack --config build/webpack.config.prod.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:umd": "tsc build/webpack.config.prod.ts --esModuleInterop && webpack --config build/webpack.config.prod.js",
+    "build:lib": "tsc -p tsconfig.json --target ES5 --outDir lib",
+    "build": "yarn build:umd && yarn build:lib"
   },
   "author": "Seif Wu <seif.wuxf@gmail.com>",
   "homepage": "https://github.com/seif-wu/seifal-ui#readme",
