@@ -16,7 +16,8 @@ var webpackOptions = {
         filename: 'ui.min.js',
         path: path.join(__dirname, '../dist'),
         library: 'SeifalUI',
-        libraryTarget: 'umd'
+        libraryTarget: 'umd',
+        globalObject: 'globalThis'
     },
     devtool: 'source-map',
     module: {

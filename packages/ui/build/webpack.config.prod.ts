@@ -18,6 +18,7 @@ const webpackOptions: Webpack.Configuration = {
     path: path.join(__dirname, '../dist'),
     library: 'SeifalUI',
     libraryTarget: 'umd',
+    globalObject: 'globalThis',
   },
   devtool: 'source-map',
   module: {
