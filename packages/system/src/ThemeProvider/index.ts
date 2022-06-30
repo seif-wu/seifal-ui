@@ -7,11 +7,18 @@ export { useTheme, withTheme };
 import '@emotion/react';
 
 export interface ModeStyle {
+  text: {
+    primary?: string;
+    secondary?: string;
+    disabled?: string;
+  },
   primary: string;
   error: string;
   warning: string;
   info: string;
   success: string;
+  background: string;
+  divider: string;
 }
 
 interface General {
@@ -22,8 +29,8 @@ interface General {
 export interface LocalTheme {
   mode: 'light' | 'dark';
   general: Record<'sm' | 'md' | 'lg', General>;
-  dark: ModeStyle;
-  light: ModeStyle;
+  dark: Partial<ModeStyle>;
+  light: Partial<ModeStyle>;
 }
 
 declare module '@emotion/react' {
