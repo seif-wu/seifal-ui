@@ -19,7 +19,7 @@ const defaultTheme = {
   light: {
     text: {
       primary: 'rgba(0, 0, 0, 0.87)',
-      secondary: 'rgba(0, 0, 0, 0.6)',
+      secondary: 'rgba(0, 0, 0, 0.45)',
       disabled: 'rgba(0, 0, 0, 0.08)',
     },
     primary: '#1976d2',
